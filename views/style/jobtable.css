@@ -1,0 +1,13 @@
+.jobtable__main{
+    width: 90%;
+    height: calc(100% - 154px);
+    background: green;
+}
+
+.jobtable__c{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
