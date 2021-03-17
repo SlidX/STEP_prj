@@ -1,0 +1,76 @@
+/* style reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+@font-face{
+    font-family: "Roboto-Regular";
+    src: url('/Roboto-Regular.ttf')
+}
+
+body {
+  line-height: 1;
+  position: relative;
+  font-family: Roboto-Regular;
+}
+
+.jobtable__main{
+    width: 90%;
+    height: 90%;
+}
+
+.jobtable__c{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jobtable__menu{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bt{
+    width: 40%;
+    height: 30%;
+    background-color: #7F5AF0;
+    border-radius: 30px;
+    color: #FFFFFF;
+    border:none;
+    outline: none;
+    font-size: 24px;
+}
+
+.jobtable__subs{
+    width:100%;
+    height: 80%;
+    
+}
